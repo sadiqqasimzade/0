@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(240,242,245,255);
+}
+.main{
+    background-color: white;
+}
+/*colors*/
+.cblue{
+    color:RGB(24,119,242);
+}
+.border{
+    border:1px  ;
+    border-color: transparent;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    border-style: solid;
+    border-radius: 5px;
+}
+.cw{
+    color: white;
+}
+/*fonts*/
+
+.font1{
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+    text-decoration: none;
+}
+p{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.fontp{
+    font-weight:200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vh;
+    text-decoration: none;
+}
+
+/*mp*/
+
+.centered{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.pt3{
+    padding-top: 3%;
+}
+.ml3{
+    margin-left: 3%;
+}
+.mr3{
+    margin-right: 3%;
+}
+.mt3{
+    margin-top: 3%;
+}
+.mb3{
+    margin-bottom: 3%;
+}
+.pl3{
+    padding-left: 3%;
+}
+.pr3{
+    padding-right: 3%;
+}
+.mr9{
+    margin-right: 9%;
+}
+.ml9{
+    margin-left: 9%;
+}
+.ml8{
+    margin-left: 8%;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+/*display*/
+.displayblock{
+    display: block;
+}
+.inline{
+    display: inline-block;
+}
+
+
+/*inputs*/
+.w40{
+    width: 40%;
+}
+.w45{
+    width: 45%;
+}
+
+.width23{
+    width: 23%;
+
+}
+.w30{
+    width: 30%;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+.tal{
+    text-align: left;
+}
+
+
+
+.input{
+    border: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    min-height: 4vh;
+}
+.button{
+    background-color: rgba(17,159,22,255);
+    text-align: center;
+    border-radius: 2%;
+    width: 50%;
+}
+
+#button1:hover{
+    background-color:rgb(33, 46, 33) ;
+}
+
+.q1{
+    height: 20px;
+    width: 20px;
+}
+.q2{
+    height: 20px;
+    width: 20px;
+}
+.hide{
+    color: black;
+    visibility: hidden;
+}
+.q1:hover + .hide {
+    visibility:hidden;
+}
+ 
+.q2:hover + .hide{
+    visibility: visible;
+}
